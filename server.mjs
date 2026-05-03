@@ -349,14 +349,14 @@ const indexHtml = `<!doctype html>
 <body>
   <header>
     <h1>stat.gov.ua data explorer</h1>
-    <p>Пошук наборов Держстата, выдача JSON/CSV, агрегация и базовая аналитика.</p>
+    <p>Пошук наборів Держстата, видача JSON/CSV, агрегація та базовая аналітика.</p>
   </header>
   <main>
     <section>
       <div class="grid">
-        <label>Поиск набора <input id="q" value="energy"></label>
-        <label>Язык <select id="lang"><option value="uk">uk</option><option value="en">en</option></select></label>
-        <button id="search">Найти</button>
+        <label>Пошук набора <input id="q" value="energy"></label>
+        <label>Мова <select id="lang"><option value="uk">uk</option><option value="en">en</option></select></label>
+        <button id="search">Знайти</button>
       </div>
       <div id="flows" class="flows"></div>
     </section>
